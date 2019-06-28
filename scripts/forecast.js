@@ -19,10 +19,10 @@ const getCity = async (city) => {
     return data[0];
 }
 
-getCity('Manchester')
-    .then(data => {
-        return getWeather(data.Key);
-    }).then(data => console.log(data.Temperature.Metric.Value))
-    .catch(err => HTMLFormControlsCollection.log(err))
+// getCity('Manchester')
+//     .then(data => {
+//         return getWeather(data.Key);
+//     }).then(data => console.log(data.Temperature.Metric.Value))
+//     .catch(err => HTMLFormControlsCollection.log(err))
 
 
